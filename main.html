@@ -2,12 +2,12 @@
 <html>
     <head>
         <style>
-            .logo{
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                padding: 300px 0;
-                width: 30%;
+            body {
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            a {
+                text-decoration: none;
             }
             .center {
                 display: flex;
@@ -15,9 +15,25 @@
                 align-items: center;
                 height: 525px;
             }
+            .top-nav {
+                display: flex;
+                align-items: center;
+                padding: 6px;
+            }
+            .top-left-nav {
+                display: inline-block;
+                padding: 5px; 
+                margin: 0px 5px 0px 15px;
+                color:black;
+            }
+            
         </style>
     </head>
     <body>
+        <div class="top-nav">
+            <a class= "top-left-nav" href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a>
+            <a class= "top-left-nav" href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a>
+        </div>
         <div class="center">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
